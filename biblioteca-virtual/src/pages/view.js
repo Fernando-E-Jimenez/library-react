@@ -40,7 +40,6 @@ export default function View() {
         </div>
         <div>
           <h2>{item?.title}</h2>
-
           <div>{item?.author}</div>
           <div>{item?.intro}</div>
           <div>{item?.completed ? "Leido" : "Por terminar"}</div>
